@@ -4,7 +4,7 @@ const Hero = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="p-10 md:p-20">
+      <div className="mt-24 md:mt-20 p-10 md:p-20">
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/*Left Col*/}
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">

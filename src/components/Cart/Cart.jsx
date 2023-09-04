@@ -9,7 +9,7 @@ const Cart = (props) => {
 
   const EmptyCart = () => {
     return (
-      <div className="flex justify-center items-center h-screen mt-20">
+      <div className="flex justify-center items-center h-screen">
         <div className="text-center">
           <h4 className="text-2xl font-semibold mb-4">Your Cart is Empty</h4>
           <Link

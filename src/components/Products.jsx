@@ -24,7 +24,7 @@ const Products = () => {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font p-10">
+    <section className="text-gray-600 body-font p-10 mt-14 md:mt-10">
       {isLoading && (
         <div className="h-[100vh] mt-32">
           <Loader />

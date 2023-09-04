@@ -52,7 +52,7 @@ const ProductDetails = (props) => {
   };
 
   return (
-    <section className="text-gray-600 body-font overflow-hidden mt-12">
+    <section className="text-gray-600 body-font overflow-hidden mt-16 md:mt-12">
       {isLoading && (
         <div className="h-[100vh] mt-32">
           <Loader />

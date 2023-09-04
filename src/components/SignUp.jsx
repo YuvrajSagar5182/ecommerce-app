@@ -41,7 +41,6 @@ const SignUp = () => {
 
     const response = await createUser(formData);
     if (response.status) {
-
       login(response.data, response.email, response.userID);
       toast("Account Created Successfully!!", {
         position: "top-right",
@@ -53,7 +52,6 @@ const SignUp = () => {
         progress: undefined,
         theme: "light",
       });
-      
     } else {
       toast("Account Created Successfully!!", {
         position: "top-right",
@@ -76,7 +74,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-[80vh] mt-32 mb-20">
+    <div className="flex flex-col items-center justify-center w-full h-[80vh] mt-32 mb-20 md:mt-28">
       <form className="w-1/2 my-10" onSubmit={formSubmitHandler}>
         <div className="mb-6 ">
           <label

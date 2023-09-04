@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 
 const EmptyCart = () => {
   return (
-    <div className="container mt-20">
+    <div className="container mt-16">
       <div className="flex justify-center items-center h-screen">
         <div className="text-center">
           <h4 className="text-2xl font-semibold mb-4">Your Cart is Empty</h4>
@@ -131,7 +131,7 @@ const ShowCheckout = () => {
 
   return (
     <>
-      <div className="container mx-auto sm:px-4 py-5 mt-20">
+      <div className="container mt-24 md:mt-20 mx-auto sm:px-4 py-5 ">
         <div className="flex flex-wrap justify-between my-4">
           <div className=" w-full md:w-2/5 pr-4 pl-4 lg:w-1/3  order-md-last">
             <div className="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 mb-4">
